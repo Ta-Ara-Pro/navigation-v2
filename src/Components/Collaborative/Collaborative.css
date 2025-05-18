@@ -1,0 +1,260 @@
+.gradient-background {
+    width: 100%;
+    font-family: Montserrat;
+    padding: 4rem 3rem;
+    position: relative;
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #b7e1ff49 30%,
+      #b2c0ca4b 70%,
+      #C6DEED0A 100%
+    );
+    /* background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #b7e1ff49 30%,
+      #b2c0ca4b 70%,
+      #eeeeee44 100%
+    ); */
+  }
+
+  
+
+  
+.collaboration-section {
+    padding: 60px 20px;
+  }
+  
+  .collaboration-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .collaboration-image {
+    flex: 1 1 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: -4rem;
+  }
+  
+  .collaboration-image img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .collaboration-text {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .collaboration-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .collaboration-text .intro {
+    font-size: 14px;
+    font-weight: 400;
+    color: #374151;
+    line-height: 23.8px;
+    margin: 0;
+  }
+  
+  .collaboration-points {
+    display: flex;
+    flex-direction: column;
+    line-height: 23.8px;
+    
+  }
+  
+  .point2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .point2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  
+  .point2 p {
+    margin: 0;
+    font-size: 12px;
+    color: #444;
+    line-height: 0.7px;
+  }
+  
+  .point2 strong {
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .collaboration-button {
+    background-color: #3c71e4;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    cursor: point2er;
+    transition: background 0.3s;
+    width: fit-content;
+  }
+  
+  .collaboration-button:hover {
+    background-color: #1e40af;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .collaboration-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+    }
+  
+    .collaboration-text {
+      align-items: center;
+    }
+  
+    .collaboration-button {
+      align-self: center;
+    }
+  
+    .point2 {
+      justify-content: center;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .collaboration-text h2 {
+      font-size: 24px;
+    }
+  
+    .collaboration-text .intro,
+    .point2 p {
+      font-size: 14px;
+    }
+  
+    .collaboration-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
+  .services2-section {
+
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .services2-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .services2-header {
+    max-width: 1000px;
+    /* margin: 1rem auto; */
+    margin-bottom: 4rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+  }
+  
+  .title .highlight {
+    color: #3b82f6;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3b82f6;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #4b5563;
+    /* margin-bottom: 50px; */
+  }
+  
+  .services2-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px 30px;
+    margin-bottom: 60px;
+  }
+  
+  .service2-card {
+    text-align: left;
+  }
+  
+  .service2-icon {
+    width: 54px;
+    margin-bottom: 20px;
+  }
+  
+  .service2-card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1861ffc5;
+  }
+  
+  .service2-card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+  }
+  
+  .services2-button {
+    text-align: center;
+  }
+  
+  .cta-button {
+    background: #3b82f6;
+    color: white;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button span {
+    margin-left: 8px;
+  }
+  
+  .cta-button:hover {
+    background: #2563eb;
+  }
+  

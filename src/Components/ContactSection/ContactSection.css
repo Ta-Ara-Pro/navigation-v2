@@ -1,0 +1,125 @@
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+   
+  }
+  
+  .contact-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+  }
+  
+  .contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #E2EDFF;
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* background: linear-gradient(
+      to top,
+      #ffffff 0%,
+      #b7e1ff49 30%,
+      #b2c0ca4b 70%,
+      #E2EDFF 100%
+    ); */
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contact-form p {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input {
+    flex: 1;
+    min-width: 140px;
+  }
+  
+  form button {
+    background-color: #3b82f6;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #2563eb;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    min-width: 260px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+  }
+  
+  .info-icon {
+    font-size: 24px;
+    color: #3b82f6;
+  }
+  
+  .info-bold {
+    font-weight: 600;
+    color: #111827;
+  }
+  .info-detail {
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-weight: 400;
+    color: #414857;
+  }
+  

@@ -1,0 +1,115 @@
+.gradient-background {
+    width: 100%;
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #b7e1ff49 30%,
+      #c4e6ff4b 70%,
+      #eeeeee44 100%
+    );
+  }
+.lab-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 30px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.lab-background {
+  background: url('../../Assets/lab-bg.png') no-repeat;
+  background-position: bottom right;
+  background-size: 500px auto; /* or 'contain', depending on image proportions */
+  position: absolute;
+  inset: 0;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.lab-container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  z-index: 1;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #1f2937;
+}
+
+.lab-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.lab-header .subtitle {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.lab-header .description {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+.description2 {
+    font-size: 14px;
+  color: #244b99;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.service-box {
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.service-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.service-box h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.service-sub {
+  font-size: 14px;
+  color: #111111;
+  margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.service-list img {
+  width: 14px;
+  height: 14px;
+  margin-top: 4px;
+}
